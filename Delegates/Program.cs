@@ -26,7 +26,7 @@ namespace Delegates
             // or
             // Print printDel = new Print(PrintNumber);
 
-            printDel(100000);
+            printDel(100000); //or printDel.Invoke(100000);
             printDel(200);
 
             // Print delegate points to PrintMoney
